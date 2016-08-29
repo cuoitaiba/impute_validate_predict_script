@@ -245,8 +245,8 @@ do_all = function(train.filename,test.filename,type="cv",ratio=.8,kfold=5,method
 ##Read-in data
 path="your-directory"
 setwd(path)
-train.filename="codetest_train.txt"
-test.filename="codetest_test.txt"
+train.filename="train.txt"
+test.filename="test.txt"
 
 ##Set global variable number of trees
 ntree=500
